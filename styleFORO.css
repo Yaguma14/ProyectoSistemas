@@ -1,0 +1,158 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.foro-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Publicaciones */
+.publicaciones {
+    margin-bottom: 30px;
+}
+
+.publicacion {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.publicacion h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.publicacion p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.publicacion span {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #999;
+}
+
+/* Comentarios */
+.comentarios {
+    margin-top: 15px;
+}
+
+.comentarios h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.comentarios p {
+    font-size: 1em;
+    color: #666;
+    margin: 5px 0;
+    padding-left: 15px;
+    border-left: 3px solid #ddd;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea:focus {
+    border-color: #0066cc;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Votaciones */
+.votaciones {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.votaciones h2 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.votaciones p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.votaciones label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.votaciones form button {
+    background-color: #007bff;
+}
+
+.votaciones form button:hover {
+    background-color: #0056b3;
+}
+
+/* Link to logout or other pages */
+.logout-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.logout-link:hover {
+    background-color: #0056b3;
+}
